@@ -1,0 +1,419 @@
+* {
+    background-color: #000000;
+    font-size: 16px;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.other a {
+    color: #ff8154;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+
+}
+
+.logo img {
+
+    width: 45px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#toggle {
+    display: none;
+}
+
+.namee {
+    width: 200px;
+
+
+}
+
+
+
+@media (min-width :768px) {
+
+body{
+    overflow-x: hidden;
+    overflow: hidden;
+  
+}
+    header {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .guide {
+        margin-left: 45px;
+    }
+
+
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        margin: 15px;
+        font-size: 18px;
+    }
+
+    .dogs {
+        display: inline;
+        justify-content: space-between;
+    }
+
+    .namo {
+        position: relative;
+        top: -15px;
+        left: 75px;
+    }
+  
+    form {
+        margin-left: 25%;
+        margin-right: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+  
+   
+
+   
+
+    .box {
+        position: relative;
+        top: -5px;
+
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 20px;
+        cursor: text;
+        color: #000000;
+        z-index: 5;
+    }
+
+    .loginn{
+        display: flex;
+        justify-content: center;
+    }
+    .logBox {
+       position: relative;
+      
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 13px;
+        padding-left: 40px;
+        padding-right: 40px;
+        cursor: pointer;
+        color: #FF8154;
+        font-weight: bold;
+        z-index: 5;
+
+    }
+
+    .box,
+    .logBox {
+        border: none;
+        background-color: #fff;
+
+    }
+
+    input[type="password"],
+    input[type="text"] {
+        padding-left: 30px;
+
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    .sign,
+    .or,
+    .guest {
+        display: flex;
+        justify-content: center;
+    }
+
+    .si {
+        margin-left: 4px;
+        color: #FF8154;
+    }
+    .dog1 {
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 100px;
+        background-image: url('../assets/login/leftDog.svg');
+        background-size: cover;
+    }
+
+    .dog2 {
+        background-repeat: no-repeat;
+        height: 120px;
+        width: 120px;
+        background-image: url('../assets/login/rightDog.svg');
+        background-size: cover;
+    }
+
+    .dog3 {
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 100px;
+        background-image: url('../assets/login/bottomDog.svg');
+        background-size: cover;
+    }
+
+    .dog4 {
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 100px;
+        background-image: url('../assets/login/bottomBlurDog.svg');
+        background-size: cover;
+    }
+
+    .dog1 {
+        position: relative;
+        top: -340px;
+        margin-left: 40px;
+        filter: blur(3px);
+    }
+
+    .dog2 {
+        position: relative;
+        top: -350px;
+        left: 75%;
+        margin-left: 20px;
+        filter: blur(8px);
+    }
+
+    .dog3 {
+        position: relative;
+        top: -367px;
+        left: 5%;
+        margin-left: 20px;
+        filter: blur(0.5px);
+    }
+
+    .dog4 {
+        position: relative;
+        top: -410px;
+        left: 80%;
+        margin-left: 20px;
+        filter: blur(0.5px);
+    }
+}
+
+
+@media (max-width :787px) {
+
+    li a {
+        background-color: transparent;
+    }
+
+    #sidebar ul {
+        background-color: transparent;
+    }
+
+    #sidebar ul li {
+        background-color: transparent;
+        margin-bottom: 25px;
+
+    }
+
+    #sidebar ul li:first-child {
+        margin-top: 15px;
+    }
+
+    #sidebar {
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 250px;
+        height: 100%;
+        background-color: #161312;
+        transition: right 0.3s ease;
+        z-index: 1000;
+    }
+
+    #sidebar.open {
+        right: 0;
+    }
+
+    #sidebar ul {
+        padding: 25px;
+
+    }
+
+    .namo {
+        position: relative;
+        top: -10px;
+        margin-left: 45px;
+    }
+
+
+    .leftDog img {
+        margin-left: 30px;
+    }
+
+    form {
+        margin-left: 40px;
+        margin-right: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    label {
+        margin-left: 30px;
+        z-index: 5;
+        background-color: transparent;
+    }
+
+    .box {
+        position: relative;
+        top: -5px;
+
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 20px;
+        cursor: text;
+        color: #000000;
+        z-index: 5;
+    }
+
+    .logBox {
+        margin-left: 35%;
+        text-align: center;
+
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 13px;
+        padding-left: 40px;
+        padding-right: 40px;
+        cursor: pointer;
+        color: #FF8154;
+        font-weight: bold;
+
+        z-index: 5;
+
+    }
+
+    .box,
+    .logBox {
+        border: none;
+        background-color: #fff;
+z-index: 9;
+    }
+    p{
+        z-index: 9;
+    }
+    input[type="password"],
+    input[type="text"] {
+        padding-left: 30px;
+
+    }
+
+    input:focus {
+        outline: none;
+
+    }
+
+    .sign,
+    .or,
+    .guest {
+        z-index: 9;
+        display: flex;
+        justify-content: center;
+    }
+
+    .si {
+        
+        margin-left: 4px;
+        color: #FF8154;
+    }
+
+    .dog1 {
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 100px;
+        background-image: url('../assets/login/leftDog.svg');
+        background-size: cover;
+    }
+
+    .dog2 {
+        background-repeat: no-repeat;
+        height: 120px;
+        width: 120px;
+        background-image: url('../assets/login/rightDog.svg');
+        background-size: cover;
+    }
+
+    .dog3 {
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 100px;
+        /* background-image: url('../assets/login/bottomDog.svg'); */
+        background-size: cover;
+    }
+
+    .dog4 {
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 100px;
+        background-image: url('../assets/login/bottomBlurDog.svg');
+        background-size: cover;
+    }
+
+    .dog1 {
+        position: relative;
+        top: -367px;
+        margin-left: 20px;
+        filter: blur(3px);
+    }
+
+    .dog2 {
+        position: relative;
+        top: -350px;
+        left: 65%;
+        margin-left: 20px;
+        filter: blur(8px);
+    }
+
+    .dog3 {
+        position: relative;
+        top: -367px;
+        left: -5%;
+        margin-left: 20px;
+        filter: blur(0.5px);
+    }
+
+    .dog4 {
+        position: relative;
+        top: -410px;
+        left: 69%;
+        margin-left: 20px;
+        filter: blur(0.5px);
+    }
+
+}
