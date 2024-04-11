@@ -40,6 +40,14 @@ li {
     
  
 }
+button{
+    margin: 0;
+    padding: 0;
+    
+   border-width: 0.5px;
+   border-radius:  25px;
+
+}
 
 
 
@@ -292,7 +300,7 @@ li {
     margin-left: 20%;
     margin-right: 10%;
     border-radius: 25px;
-    margin-top: 51%;
+    margin-top: 60%;
     
     
     
